@@ -1,0 +1,108 @@
+:root {
+	--color-logo_1: #4d5ae5;
+	--color-logo_2: #2e2f42;
+	--color-navigation: #2e2f42;
+	--coror-address: #434455;
+	--color-heading: #ffffff;
+	--color-h3: #2e2f42;
+	--color-h2: #2e2f42;
+	--color-p: #434455;
+	--color-p_footer: #f4f4fd;
+	--color-button_1: #ffffff;
+	--color-button_2: #ffffff;
+	--color-button_3: #4d5ae5;
+	--color-info: #2e2f42;
+	--color-info1: #434455;
+}
+
+body {
+	font-family: Roboto;
+
+	color: #434455;
+}
+a {
+	text-decoration: none;
+}
+.logo_1 {
+	color: var(--color-logo_1);
+}
+.logo_2 {
+	color: var(--color-logo_2);
+}
+.logo_3 {
+	color: white;
+}
+
+.address > a {
+	font-size: 16px;
+	color: var(--coror-address);
+	line-height: 24px;
+}
+.address > a:active a:focus {
+	color: #404bbf;
+}
+.navigation {
+	font-family: roboto;
+	font-weight: 500;
+	font-size: 16px;
+	color: var(--color-navigation);
+	line-height: 24px;
+}
+.navigation a:active a:focus {
+	font-weight: 500;
+	font-size: 16px;
+	color: #404bbf;
+	line-height: 24px;
+}
+.heading {
+	color: var(--color-heading);
+	background-color: #2e2f42;
+}
+
+.button_1 {
+	font-family: Roboto;
+	color: var(--color-button_1);
+	background-color: #4d5ae5;
+}
+
+.button_1 a:hover {
+	font-family: Roboto;
+	color: var(--color-button_1);
+	background-color: #404bbf;
+}
+.button_2 {
+	color: var(--color-button_2);
+}
+
+.button_3 {
+	color: var(--color-button_3);
+}
+
+.section_our_team {
+	background-color: #f4f4fd;
+}
+h3 {
+	color: var(--color-h3);
+}
+
+h2 {
+	color: var(--color-h2);
+}
+
+p {
+	color: var(--color-p);
+}
+.footer {
+	background-color: #2e2f42;
+}
+
+.p_footer {
+	color: var(--color-p_footer);
+}
+
+.info {
+	color: var(--color-info);
+}
+.info1 {
+	color: var(--color-info1);
+}
