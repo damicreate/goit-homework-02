@@ -1,5 +1,5 @@
 body {
-	font-family: "roboto", sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: var(--body-color);
 	background-color: var(--background-color);
 }
@@ -14,29 +14,16 @@ body {
 	color: var(--brand-color);
 }
 
-.logo_link {
-	color: var(--brand-color);
-	font-family: "Raleway", sans-serif;
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-}
-
-a:link {
-	text-decoration: none;
-}
 .link {
 	text-decoration: none;
 }
 
-.white {
-	color: #f4f4fd;
-}
-
 .navi {
 	color: var(--logo-and-link-color);
+}
+
+.white {
+	color: #f4f4fd;
 }
 
 .list {
@@ -84,7 +71,7 @@ a:link {
 	color: #ffffff;
 }
 
-.first_buttons {
+.first_button {
 	background-color: #4d5ae5;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
@@ -95,12 +82,12 @@ a:link {
 	cursor: pointer;
 }
 
-.first_buttons:hover,
-.first_buttons:focus {
+.first_button:hover,
+.first_button:focus {
 	background-color: #404bbf;
 }
 
-.second_and_third_header {
+.second-and-third-header {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
@@ -115,7 +102,7 @@ a:link {
 	color: var(--body-color);
 }
 
-.second_header {
+.second-header {
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
@@ -124,7 +111,7 @@ a:link {
 	color: var(--logo-and-link-color);
 }
 
-.bold_second_header {
+.bold-second-header {
 	font-size: 20px;
 	line-height: 1.2;
 	text-align: center;
@@ -135,14 +122,14 @@ a:link {
 }
 
 .another_section {
-	background-color: var(#ffffff);
+	background-color: #f4f4fd;
 }
 
 .list_item {
 	background-color: #ffffff;
 }
 
-.navi_background {
+.navy_background {
 	background-color: var(--logo-and-link-color);
 }
 
@@ -152,27 +139,28 @@ a:link {
 	color: var(--footer-paragraph-and-logo);
 }
 
-.second_adress_link {
+.second-adress-link {
 	color: var(--click-and-focus);
 }
 
-.adress_link:hover,
-.adress_link:focus {
+.adress-link2:hover,
+.adress-link2:focus {
 	color: var(--click-and-focus);
 }
 
-.othere_buttons {
-	font-family: "roboto", sans-serif;
+.other_buttons {
+	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	color: var(--brand-color);
-	background-color: (--footer-paragraph-and-logo);
+	background-color: var(--footer-paragraph-and-logo);
 	cursor: pointer;
 }
-.othere_buttons:hover,
-.othere_buttons:focus {
+
+.other_buttons:hover,
+.other_buttons:focus {
 	color: #ffffff;
 	background-color: #404bbf;
 }
